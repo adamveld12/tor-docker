@@ -22,4 +22,4 @@ else
   IP="127.0.0.1"
 fi
 
-echo "ssh root@${IP} -i ./keys/id_rsa -p 2222"
+echo "ssh torhost@${IP} -i ./keys/id_rsa -p 2222"
